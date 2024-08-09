@@ -12,8 +12,8 @@
     ],
     "require": {
         "symfony/polyfill-php81": "^1.28",
-        "ibra-kdbra/json-model-schema": "^0.19.0",
-        "php-micro-template": "^1.9.0",
+        "wol-soft/php-json-schema-model-generator-production": "^0.19.0",
+        "wol-soft/php-micro-template": "^1.9.0",
 
         "php": ">=8.0",
         "ext-json": "*",

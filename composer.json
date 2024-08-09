@@ -1,0 +1,36 @@
+{
+    "name": "JSON-Model-Schema",
+    "homepage": "https://github.com/JSON-Model_Schema",
+    "description": "Creates (immutable) PHP model classes from JSON-Schema files including all validation rules as PHP code",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ibra-kdbra",
+            "email": "sonarfarouq@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/polyfill-php81": "^1.28",
+        "JSON-Model_Schema": "^0.19.0",
+        "php-micro-template": "^1.9.0",
+
+        "php": ">=8.0",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPModelGenerator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPModelGenerator\\Tests\\": "tests",
+            "ManualSchema\\": "tests/manual/result"
+        }
+    }
+}
